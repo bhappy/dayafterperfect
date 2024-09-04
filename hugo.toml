@@ -1,6 +1,6 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://dayafterperfect.pages.dev/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "Day After Perfect"
 theme         = "roxo-hugo"
 summarylength = 25
 
@@ -16,12 +16,12 @@ summarylength = 25
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
-    url     = "portfolio"
+    name    = "Activities"
+    url     = "activities"
     weight  = 3
   [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
+    name    = "Lessons"
+    url     = "lessons"
     weight  = 4
   [[menu.nav]]
     name    = "Get in touch"
@@ -71,17 +71,17 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
-    primary_button_url    = "portfolio"
-    secondary_button      = "Connect with Us"
-    secondary_button_url  = "contact"
+    heading               = "Success in life is defined by what comes after perfect."
+    tagline               = "LOOK FORWARD"
+    primary_button        = "Activities"
+    primary_button_url    = "activities"
+    secondary_button      = "Lessons"
+    secondary_button_url  = "lessons"
 
-  [params.blog]
+  [params.lessons]
     read_more             = "read more"
 
-  [params.portfolio]
+  [params.activities]
     enable    = true
     title     = "OUR RECENT WORKS"
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
@@ -113,11 +113,11 @@ summarylength = 25
           name = "About Company"
           url  = "about"
         [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
+          name = "Activities"
+          url  = "activities"
         [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
+          name = "Lessons"
+          url  = "lessons"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
